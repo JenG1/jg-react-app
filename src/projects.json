@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "projectname": "FoxHole Villa",
+      "image": "foxhole.png",
+      "github": "https://github.com/kshep425/JKReady.git",
+      "heroku": "https://rabbit-the-fixer.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "projectname": "Employee Direct",
+      "image": "employeedirect.png",
+      "github": "https://github.com/JenG1/employee-directory-app.git",
+      "heroku": "https://react-employee-dir.herokuapp.com/"
+    },
+    {
+      "id": 3,
+      "projectname": "Off The Menu",
+      "image": "",
+      "github": "https://github.com/JonoAugustine/off-the-menu.git",
+      "heroku": "https://off-the-menu.herokuapp.com/"
+    }
+  ]
+  
