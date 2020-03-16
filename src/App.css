@@ -103,6 +103,10 @@ li .link:hover{
   text-align: left;
   top:2em;
 }
+.type-font{
+  font-size: 26px;
+}
+
 .about{
   display: flex;
   flex-direction: row;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 import data from '../yourdata'
 
 
@@ -14,11 +15,12 @@ class Header extends Component {
                     <Fade bottom cascade>{data.name}</Fade></h1>
             </header>
             <Fade bottom>
-                <p className='header-title'>
+                {/* <p className='header-title '>
                     {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
                     {data.headerTagline[2]}
                     <br></br>
-                </p>
+                </p> */}
+            <ReactTypingEffect className="header-title typingeffect type-font" text={['Hello, My name is Jen. I am a Full Stack Developer from Baltimore, MD.']} speed={100} eraseDelay={900} />
             </Fade>
 
 
