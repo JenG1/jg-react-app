@@ -9,7 +9,7 @@ export default
         contactEmail:'jengenes410@gmail.com',
         contactCell:'786-556-7579',
 
-        abouttext: "I am a Full-Stack Developer residing in Baltimore, Maryland. I primarily work with Javascript, HTML5, CSS3, React, and Node. I have a passion for technology and I love designing and building user interfaces. I have experience designing, developing and implementing a Laboratory Information Management System (LIMS) and Electronic Lab Notebook (ELN).",
+        abouttext: "I am a Full Stack Web Developer with a background in Molecular Biology and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. A team-player with strong attention to detail no matter the complexity of the project. Technical programming skills : HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS ",
         aboutImage:"",
 
        ShowAboutImage:true,

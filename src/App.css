@@ -92,7 +92,7 @@ li .link:hover{
 }
 .header-title button a{
   font-family: 'Open Sans', sans-serif;
-  color:white;
+  color: #FA9A85;
   text-decoration: none;
 }
 .header-title{
@@ -116,11 +116,13 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  
 }
 .about-content p{
-  font-size: 1.3em;
+  font-size: 2.3em;
   text-align: left;
   width: 37em;
+  color: #FA9A85;
 }
 .about img{
   margin-left: 5em;
