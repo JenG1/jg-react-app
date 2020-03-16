@@ -1,26 +1,30 @@
-import React from "react";
-// Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route } from 'react-router-dom';
-import Projects from './components/Projects/Project.js';
-import Contact from './components/Contact/Contact.js';
-import About from './components/About/About.js';
-import NavBar from './components/NavBar/NavBar.js';
-import Footer from './components/Footer/Footer.js';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Work from './components/work';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import './App.css'
 
-function App (){
-
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <NavBar />
-          <Route exact path="/" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
-        </div>
-        <Footer />
-      </BrowserRouter>
-    );
+function App() {
+  return (
+    <div className="App">
+      <Navbar></Navbar>
+      <div className="App-header">
+      <Header></Header>
+      </div>
+      
+      <div className='About'>
+        <About></About>
+      </div>
+      <div className='work'>
+        <Work></Work>
+      </div>
+      <div className='contact'>
+        <Contact></Contact>
+      </div>
+    </div>
+  );
 }
 
 export default App;
