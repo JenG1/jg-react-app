@@ -99,6 +99,7 @@ li .link:hover{
   position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
+  color: #FA9A85;
   text-align: left;
   top:2em;
 }
@@ -147,6 +148,7 @@ li .link:hover{
 .project img{
 width: 30em;  
 height: 30em;
+background:#fff;
 }
 .contact{
   position: relative;
@@ -161,11 +163,15 @@ height: 30em;
   color: #fff;
 }
 .amazing-color{
-  color:#0fe20f;
+  color: #FA9A85;
   opacity: 1;
 }
 
 .contact .email{
+  color:#fff;
+  font-size: 2em;
+}
+.cell{
   color:#fff;
   font-size: 2em;
 }
