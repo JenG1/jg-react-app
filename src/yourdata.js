@@ -17,45 +17,43 @@ export default
         projects: [
             {
                 id: 1,
-                title: 'FoxHole Villa', //Project Title - Add Your Project Title Here
-                service: 'Web App', // Add Your Service Type Here
-                //Project Image - Add Your Project Image Here
+                title: 'FoxHole Villa', 
+                service: 'https://github.com/kshep425/JKReady.git', 
                 imageSrc: "https://i.ibb.co/bgKJj8v/foxhole.png",
-                //Project URL - Add Your Project Url Here
                 url: 'https://rabbit-the-fixer.herokuapp.com/'
             },
             {
                 id: 2,
                 title: 'Off The Menu',
-                service: 'App',
+                service: 'https://github.com/JonoAugustine/off-the-menu.git',
                 imageSrc: "https://i.ibb.co/n1csZZ4/ms-icon-310x310.png",
                 url: 'https://off-the-menu.herokuapp.com/'
             },
             {
                 id: 3,
                 title: 'Employee Direct',
-                service: 'Web App',
+                service: 'https://github.com/JenG1/employee-directory-app.git',
                 imageSrc: "https://i.ibb.co/jHfPZRs/employeedirect.png",
                 url: 'https://react-employee-dir.herokuapp.com/'
             },
             {
                 id: 4,
                 title: 'WorkOut Trackr',
-                service: 'Web App',
+                service: 'https://github.com/JenG1/workout-app.git',
                 imageSrc: "https://i.ibb.co/MRgqj27/workouttrakr.png",
                 url: 'https://workout-trakr.herokuapp.com/'
             },
             {
                 id: 5,
                 title: 'Day Planner',
-                service: 'Planner',
+                service: 'https://github.com/JenG1/Day-Planner.git',
                 imageSrc: "https://i.ibb.co/wMwqQRp/day-planner.png",
                 url: 'https://jeng1.github.io/Day-Planner/'
             },
             {
                 id: 5,
                 title: 'Weather Dash',
-                service: 'Planner',
+                service: 'https://github.com/JenG1/Weather-Dash.git',
                 imageSrc: "https://i.ibb.co/BTr9hB1/weather-dash.png",
                 url: 'https://jeng1.github.io/Weather-Dash/'
             }
